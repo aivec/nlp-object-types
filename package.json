@@ -7,7 +7,7 @@
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix"
   },
-  "author": "NLP Inc.",
+  "author": "Aivec LLC.",
   "license": "ISC",
   "dependencies": {
     "mongodb": "^4.3.0"
