@@ -1,0 +1,36 @@
+{
+  "name": "@aivec/nlp-object-types",
+  "version": "0.0.1",
+  "description": "NLPスキーマのタイプライブラリー",
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix"
+  },
+  "author": "NLP Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.3.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-plugin-import": "^2.25.4",
+    "typescript": "^4.5.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base",
+      "airbnb-typescript/base"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "rules": {
+      "import/prefer-default-export": [0, "never"]
+    }
+  }
+}
