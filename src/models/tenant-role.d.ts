@@ -1,4 +1,4 @@
-import { ObjectId } from 'mongodb';
+import { ObjectId, Document } from 'mongodb';
 
 /**
  * テナントロール
@@ -12,7 +12,7 @@ import { ObjectId } from 'mongodb';
  * - Excel: コード定義一覧(NLP)
  * - Sheet: `テナントロール`
  */
-export interface TenantRole {
+export interface TenantRole extends Document {
   id?: ObjectId;
   code: string;
   name?: string;

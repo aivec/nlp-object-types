@@ -1,6 +1,6 @@
 {
   "name": "@aivec/nlp-object-types",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NLPスキーマのタイプライブラリー",
   "main": "src/index.ts",
   "scripts": {
